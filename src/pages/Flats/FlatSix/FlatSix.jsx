@@ -3,7 +3,10 @@ import './FlatSix.scss'
 
 function FlatSix() {
   return (
-    <div>FlatSix</div>
+    <div>
+      FlatSix
+
+    </div>
   )
 }
 

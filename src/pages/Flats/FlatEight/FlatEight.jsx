@@ -3,7 +3,10 @@ import './FlatEight.scss'
 
 function FlatEight() {
   return (
-    <div>FlatEight</div>
+    <div>
+      FlatEight
+
+    </div>
   )
 }
 

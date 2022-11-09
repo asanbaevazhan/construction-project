@@ -3,7 +3,10 @@ import './FlatTwelve.scss'
 
 function FlatTwelve() {
   return (
-    <div>FlatTwelve</div>
+    <div>
+      FlatTwelve
+
+    </div>
   )
 }
 

@@ -3,7 +3,9 @@ import './FlatTen.scss'
 
 function FlatTen() {
   return (
-    <div>FlatTen</div>
+    <div>FlatTen
+      
+    </div>
   )
 }
 

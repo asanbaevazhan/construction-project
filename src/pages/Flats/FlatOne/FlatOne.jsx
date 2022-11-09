@@ -1,11 +1,11 @@
 import React from 'react'
-import './FlatONe.scss'
+import './FlatOne.scss'
 
 function FlatOne() {
   return (
-    <div>
-        Flat
-        One
+    <div className='flat-one'>
+      
+      Flat One
 
     </div>
   )

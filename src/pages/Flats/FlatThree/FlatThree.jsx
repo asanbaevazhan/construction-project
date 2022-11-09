@@ -4,7 +4,8 @@ import './FlatThree.scss'
 function FlatThree() {
   return (
     <div>
-        FlatThree
+        Flat
+        Three
 
     </div>
   )
