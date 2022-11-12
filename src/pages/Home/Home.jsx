@@ -6,9 +6,10 @@ function Home() {
   return (
     <div className='home'> 
         <div className="floors">
-            <Link to="/floor-nine" className='floor-nine'>
+
+            {/* <Link to="/floor-nine" className='floor-nine'>
                 <p> <span>9</span> ЭТАЖ </p>
-            </Link>
+            </Link> */}
 
             <Link to="/floor-eight" className='floor-eight'>
                 <p> <span>8</span> ЭТАЖ </p>
@@ -35,9 +36,10 @@ function Home() {
             <Link to="/floor-two" className='floor-two'>
                 <p> <span>2</span> ЭТАЖ </p>
             </Link>
-            <Link to="/floor-one" className='floor-one'>
+
+            {/* <Link to="/floor-one" className='floor-one'>
                 <p> <span>1</span> ЭТАЖ </p>
-            </Link>
+            </Link> */}
             
         </div>
 

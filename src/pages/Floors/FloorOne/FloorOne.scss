@@ -9,6 +9,7 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        padding-top: 30px
     }
     
 
@@ -24,20 +25,31 @@
         height: 50vh;
 
         .pagination{
-            p{
+
+            .first-floor{
+                p{
+            
                 font-family: 'Oswald', sans-serif; 
                 font-size: 90pt;
                 color: #756b60;
                 margin-top: -20%;
-            }
+                margin-bottom: -20%;
+                }
 
-            .anticon, .anticon-up{
-                color: #756b60;
-               
+                span{
+                    font-family: 'Oswald', sans-serif; 
+                    font-weight: 200;
+                    font-size: 18pt;
+                    color: #756b60;
+                    margin-bottom: 10px;
+                }
             }
+            
         }
         .residential-complex{
-            margin-top: 50%;
+            position: fixed;
+            top: 80%;
+            left: 3.5%;
 
             p{
                 font-family: 'Oswald', sans-serif;
@@ -51,87 +63,9 @@
     }
 
     .cancel{
-        margin-top: -45%;
+        margin-top: -46.5%;
     }
 
-    .flat-links{
-        display: flex;
-    }
 
-    .floor-one-flat-one{
-        position: absolute;
-        top: 18.8%;
-        left: 24.3%;
-    
-        img{
-            visibility: hidden;
-            width: 120px;
-        }
-    }
-    .floor-one-flat-one:hover{
-        img{
-            visibility: visible;
-            width: 120px;
-
-        }
-    }
-    .floor-one-flat-two{
-        position: absolute;
-        top: 17.8%;
-        left: 28.5%;
-    
-        img{
-            visibility: hidden;
-            width: 92px;
-        }
-    }
-
-    .floor-one-flat-two:hover {
-        img{
-            visibility: visible;
-            width: 92px;
-
-        }
-    }
-
-    .floor-one-flat-three{
-        // border: 1px solid #000;
-        position: absolute;
-        top: 17.7%;
-        left: 34.6%;
-
-        img{
-            visibility: hidden;
-            width: 92px;
-        }
-    }
-
-    .floor-one-flat-three:hover {
-        img{
-            visibility: visible;
-            width: 92px;
-
-        }
-    }
-
-    .floor-one-flat-four{
-        border: 1px solid #000;
-        position: absolute;
-        top: 18.4%;
-        left: 37.6%;
-
-        img{
-            visibility: hidden;
-            width: 101px;
-        }
-    }
-
-    .floor-one-flat-four:hover {
-        img{
-            visibility: visible;
-            width: 101px;
-
-        }
-    }
 
 }
