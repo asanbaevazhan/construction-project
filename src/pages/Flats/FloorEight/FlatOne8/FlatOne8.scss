@@ -1,0 +1,108 @@
+.flat-one{
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    margin-left: 80px;
+    margin-right: 80px;
+
+    .floor-one-page-wrapper{
+        padding-top: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .side-eight{
+        margin-top: 72px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 50vh;
+
+        .pagination{
+            .first-floor{
+                p{
+            
+                font-family: 'Oswald', sans-serif; 
+                font-size: 90pt;
+                color: #756b60;
+                margin-top: -20%;
+                margin-bottom: -20%;
+                }
+
+                span{
+                    font-family: 'Oswald', sans-serif; 
+                    font-weight: 200;
+                    font-size: 18pt;
+                    color: #756b60;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+        .residential-complex{
+            position: fixed;
+            top: 80%;
+            left: 3.5%;
+
+            p{
+                font-family: 'Oswald', sans-serif;
+                transform: rotateZ(90deg);
+                border: 1px solid #756b60;
+                border-radius: 10px;
+                padding: 10px;
+                color: #756b60;
+            }
+        }
+    }
+
+    .cancel{
+        margin-top: -45%;
+    }
+
+    .flat-one-info{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-self: center;
+
+        img{
+            width: 80%;
+        }
+
+        .flat-text-info{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-between;
+            height: 35vh;
+
+            p{
+                font-family: "Oswald", sans-serif;
+                color: #756b60;
+                margin: 0;
+                padding: 0;
+            }
+
+            .rooms{
+                font-weight: 200;
+                font-size: 18pt;
+            }
+
+            .q-rooms{
+                font-weight: 600;
+                font-size: 40pt;
+            }
+
+            .square{
+                padding-top: 20px;
+                font-weight: 200;
+                font-size: 18pt;
+            }
+
+            .square-info{
+                font-weight: 600;
+                font-size: 40pt;
+            }
+        }
+    }
+}

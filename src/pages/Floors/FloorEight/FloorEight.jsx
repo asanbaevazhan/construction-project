@@ -11,7 +11,6 @@ import FlatLayout8 from '../../../components/FlatLayout8/FlatLayout8';
 function FloorEight() {
   const navigate = useNavigate();
 
-
   const handleBack = () => {
     navigate('/floor-seven');
   }

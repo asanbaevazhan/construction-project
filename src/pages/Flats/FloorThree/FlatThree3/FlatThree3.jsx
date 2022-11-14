@@ -13,13 +13,16 @@ function FlatThree3() {
   const handleNext = () => {
     navigate('/floor-four');
   }
+  const handleBack = () => {
+    navigate('/floor-two');
+  }
 
   const handleCancel = () => {
     navigate(-1);
   }
 
   return (
-    <div className='flat-one'>
+  <div className='flat-one'>
       <div className="floor-one-page-wrapper">
         <div className='side' >
           <div className="pagination">
@@ -33,7 +36,7 @@ function FlatThree3() {
             </div>
             <DownOutlined 
               style={{ fontSize: '100px', color: '#756b60'}}
-              onClick={handleNext}
+              onClick={handleBack}
             />
           </div>
 

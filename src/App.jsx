@@ -52,6 +52,62 @@ import FlatEleven4 from './pages/Flats/FloorFour/FlatEleven4/FlatEleven4';
 import FlatTwelve4 from './pages/Flats/FloorFour/FlatTwelve4/FlatTwelve4';
 import FlatThirteen4 from './pages/Flats/FloorFour/FlatThirteen4/FlatThirteen4';
 
+import FlatOne5 from './pages/Flats/FloorFive/FlatOne5/FlatOne5';
+import FlatTwo5 from './pages/Flats/FloorFive/FlatTwo5/FlatTwo5';
+import FlatThree5 from './pages/Flats/FloorFive/FlatThree5/FlatThree5';
+import FlatFour5 from './pages/Flats/FloorFive/FlatFour5/FlatFour5';
+import FlatFive5 from './pages/Flats/FloorFive/FlatFive5/FlatFive5';
+import FlatSix5 from './pages/Flats/FloorFive/FlatSix5/FlatSix5';
+import FlatSeven5 from './pages/Flats/FloorFive/FlatSeven5/FlatSeven5';
+import FlatEight5 from './pages/Flats/FloorFive/FlatEight5/FlatEight5';
+import FlatNine5 from './pages/Flats/FloorFive/FlatNine5/FlatNine5';
+import FlatTen5 from './pages/Flats/FloorFive/FlatTen5/FlatTen5';
+import FlatEleven5 from './pages/Flats/FloorFive/FlatEleven5/FlatEleven5';
+import FlatTwelve5 from './pages/Flats/FloorFive/FlatTwelve5/FlatTwelve5';
+import FlatThirteen5 from './pages/Flats/FloorFive/FlatThirteen5/FlatThirteen5';
+
+import FlatOne6 from './pages/Flats/FloorSix/FlatOne6/FlatOne6';
+import FlatTwo6 from './pages/Flats/FloorSix/FlatTwo6/FlatTwo6';
+import FlatThree6 from './pages/Flats/FloorSix/FlatThree6/FlatThree6';
+import FlatFour6 from './pages/Flats/FloorSix/FlatFour6/FlatFour6';
+import FlatFive6 from './pages/Flats/FloorSix/FlatFive6/FlatFive6';
+import FlatSix6 from './pages/Flats/FloorSix/FlatSix6/FlatSix6';
+import FlatSeven6 from './pages/Flats/FloorSix/FlatSeven6/FlatSeven6';
+import FlatEight6 from './pages/Flats/FloorSix/FlatEight6/FlatEight6';
+import FlatNine6 from './pages/Flats/FloorSix/FlatNine6/FlatNine6';
+import FlatTen6 from './pages/Flats/FloorSix/FlatTen6/FlatTen6';
+import FlatEleven6 from './pages/Flats/FloorSix/FlatEleven6/FlatEleven6';
+import FlatTwelve6 from './pages/Flats/FloorSix/FlatTwelve6/FlatTwelve6';
+import FlatThirteen6 from './pages/Flats/FloorSix/FlatThirteen6/FlatThirteen6';
+
+import FlatOne7 from './pages/Flats/FloorSeven/FlatOne7/FlatOne7';
+import FlatTwo7 from './pages/Flats/FloorSeven/FlatTwo7/FlatTwo7';
+import FlatThree7 from './pages/Flats/FloorSeven/FlatThree7/FlatThree7';
+import FlatFour7 from './pages/Flats/FloorSeven/FlatFour7/FlatFour7';
+import FlatFive7 from './pages/Flats/FloorSeven/FlatFive7/FlatFive7';
+import FlatSix7 from './pages/Flats/FloorSeven/FlatSix7/FlatSix7';
+import FlatSeven7 from './pages/Flats/FloorSeven/FlatSeven7/FlatSeven7';
+import FlatEight7 from './pages/Flats/FloorSeven/FlatEight7/FlatEight7';
+import FlatNine7 from './pages/Flats/FloorSeven/FlatNine7/FlatNine7';
+import FlatTen7 from './pages/Flats/FloorSeven/FlatTen7/FlatTen7';
+import FlatEleven7 from './pages/Flats/FloorSeven/FlatEleven7/FlatEleven7';
+import FlatTwelve7 from './pages/Flats/FloorSeven/FlatTwelve7/FlatTwelve7';
+import FlatThirteen7 from './pages/Flats/FloorSeven/FlatThirteen7/FlatThirteen7';
+
+import FlatOne8 from './pages/Flats/FloorEight/FlatOne8/FlatOne8';
+import FlatTwo8 from './pages/Flats/FloorEight/FlatTwo8/FlatTwo8';
+import FlatThree8 from './pages/Flats/FloorEight/FlatThree8/FlatThree8';
+import FlatFour8 from './pages/Flats/FloorEight/FlatFour8/FlatFour8';
+import FlatFive8 from './pages/Flats/FloorEight/FlatFive8/FlatFive8';
+import FlatSix8 from './pages/Flats/FloorEight/FlatSix8/FlatSix8';
+import FlatSeven8 from './pages/Flats/FloorEight/FlatSeven8/FlatSeven8';
+import FlatEight8 from './pages/Flats/FloorEight/FlatEight8/FlatEight8';
+import FlatNine8 from './pages/Flats/FloorEight/FlatNine8/FlatNine8';
+import FlatTen8 from './pages/Flats/FloorEight/FlatTen8/FlatTen8';
+import FlatEleven8 from './pages/Flats/FloorEight/FlatEleven8/FlatEleven8';
+import FlatTwelve8 from './pages/Flats/FloorEight/FlatTwelve8/FlatTwelve8';
+import FlatThirteen8 from './pages/Flats/FloorEight/FlatThirteen8/FlatThirteen8';
+
 
 function App() {
   return (
@@ -106,65 +162,65 @@ function App() {
 
 
             <Route path="/floor-five" element={<FloorFive/>} />
-              {/* <Route path="/floor-five/flat-one" exact element={<FlatOne/>} />
-              <Route path="/floor-five/flat-two" element={<FlatTwo/>} />
-              <Route path="/floor-five/flat-three" element={<FlatThree/>} />
-              <Route path="/floor-five/flat-four" element={<FlatFour/>} />
-              <Route path="/floor-five/flat-five" element={<FlatFive/>} />
-              <Route path="/floor-five/flat-six" element={<FlatSix/>} />
-              <Route path="/floor-five/flat-seven" element={<FlatSeven/>} />
-              <Route path="/floor-five/flat-eight" element={<FlatEight/>} />
-              <Route path="/floor-five/flat-nine" element={<FlatNine/>} />
-              <Route path="/floor-five/flat-ten" element={<FlatTen/>} />
-              <Route path="/floor-five/flat-eleven" element={<FlatEleven/>} />
-              <Route path="/floor-five/flat-twelve" element={<FlatTwelve/>} />
-              <Route path="/floor-five/flat-thirteen" element={<FlatThirteen/>} /> */}
+              <Route path="/floor-five/flat-one" exact element={<FlatOne5/>} />
+              <Route path="/floor-five/flat-two" element={<FlatTwo5/>} />
+              <Route path="/floor-five/flat-three" element={<FlatThree5/>} />
+              <Route path="/floor-five/flat-four" element={<FlatFour5/>} />
+              <Route path="/floor-five/flat-five" element={<FlatFive5/>} />
+              <Route path="/floor-five/flat-six" element={<FlatSix5/>} />
+              <Route path="/floor-five/flat-seven" element={<FlatSeven5/>} />
+              <Route path="/floor-five/flat-eight" element={<FlatEight5/>} />
+              <Route path="/floor-five/flat-nine" element={<FlatNine5/>} />
+              <Route path="/floor-five/flat-ten" element={<FlatTen5/>} />
+              <Route path="/floor-five/flat-eleven" element={<FlatEleven5/>} />
+              <Route path="/floor-five/flat-twelve" element={<FlatTwelve5/>} />
+              <Route path="/floor-five/flat-thirteen" element={<FlatThirteen5/>} />
 
             <Route path="/floor-six" element={<FloorSix/>} />
-              {/* <Route path="/floor-six/flat-one" exact element={<FlatOne/>} />
-              <Route path="/floor-six/flat-two" element={<FlatTwo/>} />
-              <Route path="/floor-six/flat-three" element={<FlatThree/>} />
-              <Route path="/floor-six/flat-four" element={<FlatFour/>} />
-              <Route path="/floor-six/flat-five" element={<FlatFive/>} />
-              <Route path="/floor-six/flat-six" element={<FlatSix/>} />
-              <Route path="/floor-six/flat-seven" element={<FlatSeven/>} />
-              <Route path="/floor-six/flat-eight" element={<FlatEight/>} />
-              <Route path="/floor-six/flat-nine" element={<FlatNine/>} />
-              <Route path="/floor-six/flat-ten" element={<FlatTen/>} />
-              <Route path="/floor-six/flat-eleven" element={<FlatEleven/>} />
-              <Route path="/floor-six/flat-twelve" element={<FlatTwelve/>} />
-              <Route path="/floor-six/flat-thirteen" element={<FlatThirteen/>} /> */}
+              <Route path="/floor-six/flat-one" exact element={<FlatOne6/>} />
+              <Route path="/floor-six/flat-two" element={<FlatTwo6/>} />
+              <Route path="/floor-six/flat-three" element={<FlatThree6/>} />
+              <Route path="/floor-six/flat-four" element={<FlatFour6/>} />
+              <Route path="/floor-six/flat-five" element={<FlatFive6/>} />
+              <Route path="/floor-six/flat-six" element={<FlatSix6/>} />
+              <Route path="/floor-six/flat-seven" element={<FlatSeven6/>} />
+              <Route path="/floor-six/flat-eight" element={<FlatEight6/>} />
+              <Route path="/floor-six/flat-nine" element={<FlatNine6/>} />
+              <Route path="/floor-six/flat-ten" element={<FlatTen6/>} />
+              <Route path="/floor-six/flat-eleven" element={<FlatEleven6/>} />
+              <Route path="/floor-six/flat-twelve" element={<FlatTwelve6/>} />
+              <Route path="/floor-six/flat-thirteen" element={<FlatThirteen6/>} />
 
 
             <Route path="/floor-seven" element={<FloorSeven/>} />
-              {/* <Route path="/floor-seven/flat-one" exact element={<FlatOne/>} />
-              <Route path="/floor-seven/flat-two" element={<FlatTwo/>} />
-              <Route path="/floor-seven/flat-three" element={<FlatThree/>} />
-              <Route path="/floor-seven/flat-four" element={<FlatFour/>} />
-              <Route path="/floor-seven/flat-five" element={<FlatFive/>} />
-              <Route path="/floor-seven/flat-six" element={<FlatSix/>} />
-              <Route path="/floor-seven/flat-seven" element={<FlatSeven/>} />
-              <Route path="/floor-seven/flat-eight" element={<FlatEight/>} />
-              <Route path="/floor-seven/flat-nine" element={<FlatNine/>} />
-              <Route path="/floor-seven/flat-ten" element={<FlatTen/>} />
-              <Route path="/floor-seven/flat-eleven" element={<FlatEleven/>} />
-              <Route path="/floor-seven/flat-twelve" element={<FlatTwelve/>} />
-              <Route path="/floor-seven/flat-thirteen" element={<FlatThirteen/>} /> */}
+              <Route path="/floor-seven/flat-one" exact element={<FlatOne7/>} />
+              <Route path="/floor-seven/flat-two" element={<FlatTwo7/>} />
+              <Route path="/floor-seven/flat-three" element={<FlatThree7/>} />
+              <Route path="/floor-seven/flat-four" element={<FlatFour7/>} />
+              <Route path="/floor-seven/flat-five" element={<FlatFive7/>} />
+              <Route path="/floor-seven/flat-six" element={<FlatSix7/>} />
+              <Route path="/floor-seven/flat-seven" element={<FlatSeven7/>} />
+              <Route path="/floor-seven/flat-eight" element={<FlatEight7/>} />
+              <Route path="/floor-seven/flat-nine" element={<FlatNine7/>} />
+              <Route path="/floor-seven/flat-ten" element={<FlatTen7/>} />
+              <Route path="/floor-seven/flat-eleven" element={<FlatEleven7/>} />
+              <Route path="/floor-seven/flat-twelve" element={<FlatTwelve7/>} />
+              <Route path="/floor-seven/flat-thirteen" element={<FlatThirteen7/>} />
 
             <Route path="/floor-eight" element={<FloorEight/>} />
-              {/* <Route path="/floor-eight/flat-one" exact element={<FlatOne/>} />
-              <Route path="/floor-eight/flat-two" element={<FlatTwo/>} />
-              <Route path="/floor-eight/flat-three" element={<FlatThree/>} />
-              <Route path="/floor-eight/flat-four" element={<FlatFour/>} />
-              <Route path="/floor-eight/flat-five" element={<FlatFive/>} />
-              <Route path="/floor-eight/flat-six" element={<FlatSix/>} />
-              <Route path="/floor-eight/flat-seven" element={<FlatSeven/>} />
-              <Route path="/floor-eight/flat-eight" element={<FlatEight/>} />
-              <Route path="/floor-eight/flat-nine" element={<FlatNine/>} />
-              <Route path="/floor-eight/flat-ten" element={<FlatTen/>} />
-              <Route path="/floor-eight/flat-eleven" element={<FlatEleven/>} />
-              <Route path="/floor-eight/flat-twelve" element={<FlatTwelve/>} />
-              <Route path="/floor-eight/flat-thirteen" element={<FlatThirteen/>} /> */}
+              <Route path="/floor-eight/flat-one" exact element={<FlatOne8/>} />
+              <Route path="/floor-eight/flat-two" element={<FlatTwo8/>} />
+              <Route path="/floor-eight/flat-three" element={<FlatThree8/>} />
+              <Route path="/floor-eight/flat-four" element={<FlatFour8/>} />
+              <Route path="/floor-eight/flat-five" element={<FlatFive8/>} />
+              <Route path="/floor-eight/flat-six" element={<FlatSix8/>} />
+              <Route path="/floor-eight/flat-seven" element={<FlatSeven8/>} />
+              <Route path="/floor-eight/flat-eight" element={<FlatEight8/>} />
+              <Route path="/floor-eight/flat-nine" element={<FlatNine8/>} />
+              <Route path="/floor-eight/flat-ten" element={<FlatTen8/>} />
+              <Route path="/floor-eight/flat-eleven" element={<FlatEleven8/>} />
+              <Route path="/floor-eight/flat-twelve" element={<FlatTwelve8/>} />
+              <Route path="/floor-eight/flat-thirteen" element={<FlatThirteen8/>} />
           
             
         </Routes>

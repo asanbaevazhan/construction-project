@@ -13,6 +13,9 @@ function FlatTwo4() {
   const handleNext = () => {
     navigate('/floor-five');
   }
+  const handleBack = () => {
+    navigate('/floor-three');
+  }
 
   const handleCancel = () => {
     navigate(-1);
@@ -32,7 +35,7 @@ function FlatTwo4() {
             </div>
             <DownOutlined 
               style={{ fontSize: '100px', color: '#756b60'}}
-              onClick={handleNext}
+              onClick={handleBack}
             />
           </div>
 

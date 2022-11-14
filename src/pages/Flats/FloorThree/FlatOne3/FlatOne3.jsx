@@ -14,6 +14,10 @@ function FlatOne3() {
     navigate('/floor-four');
   }
 
+  const handleBack = () => {
+    navigate('/floor-two');
+  }
+
   const handleCancel = () => {
     navigate(-1);
   }
@@ -32,7 +36,7 @@ function FlatOne3() {
             </div>
             <DownOutlined 
               style={{ fontSize: '100px', color: '#756b60'}}
-              onClick={handleNext}
+              onClick={handleBack}
             />
           </div>
 

@@ -1,7 +1,6 @@
 import React from 'react'
 import './FlatThree2.scss'
 import { useNavigate } from "react-router-dom";
-import { DownOutlined } from '@ant-design/icons';
 import { UpOutlined } from '@ant-design/icons';
 import { CloseOutlined } from '@ant-design/icons';
 

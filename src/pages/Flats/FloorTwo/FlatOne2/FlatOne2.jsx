@@ -54,11 +54,7 @@ function FlatOne2() {
               style={{ fontSize: '40px', color: '#756b60'}}
             />
         </div>
-
-      
       </div>
-
-      
     </div>
   )
 }
