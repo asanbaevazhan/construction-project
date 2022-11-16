@@ -3,9 +3,15 @@ import './FlatOne2.scss'
 import { useNavigate } from "react-router-dom";
 import { UpOutlined } from '@ant-design/icons';
 import { CloseOutlined } from '@ant-design/icons';
+import Flickity from 'react-flickity-component'
 
 import flatOne from './../../../../assets/flat/квартира 1.jpg'
+import flatOne2 from './../../../../assets/img2/1.png'
+import SliderFlatOne from '../../../../components/Slider/FlatOne/SliderFlatOne';
 
+const flickityOptions = {
+  initialIndex: 2
+}
 function FlatOne2() {
   const navigate = useNavigate();
 
@@ -38,7 +44,9 @@ function FlatOne2() {
         </div>
 
         <div className="flat-one-info">
-          <img src={flatOne} alt="" />
+          <SliderFlatOne/>
+          
+          {/* <img src={flatOne} alt="" /> */}
 
          <div className="flat-text-info">
           <p className='rooms'>КОЛИЧЕСТВО КОМНАТ</p>
@@ -48,7 +56,7 @@ function FlatOne2() {
          </div>
         </div>
 
-        <div className="cancel" >
+        <div className="cancel-one" >
             <CloseOutlined 
             onClick={handleCancel}
               style={{ fontSize: '40px', color: '#756b60'}}

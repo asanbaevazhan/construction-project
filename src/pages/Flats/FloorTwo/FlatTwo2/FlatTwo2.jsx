@@ -1,11 +1,14 @@
 import React from 'react'
 import './FlatTwo2.scss'
 import { useNavigate } from "react-router-dom";
-import { DownOutlined } from '@ant-design/icons';
 import { UpOutlined } from '@ant-design/icons';
 import { CloseOutlined } from '@ant-design/icons';
-
+import SliderFlatTwo from './../../../../components/Slider/FlatTwo/SliderFlatTwo'
 import flatTwo from './../../../../assets/flat/квартира 2.jpg'
+
+import img1 from './../../../../assets/flat/квартира 2.jpg'
+import img2 from './../../../../assets/img2/2.png'
+
 
 function FlatTwo2() {
   const navigate = useNavigate();
@@ -16,6 +19,17 @@ function FlatTwo2() {
 
   const handleCancel = () => {
     navigate(-1);
+  }
+
+  const slides = [
+    {url: img1},
+    {url: img2},
+  ]
+
+  const containerStyles = {
+    width: '500px',
+    height: '280px',
+    margin: "0 auto"
   }
   return (
     <div className='flat-one'>
@@ -39,7 +53,14 @@ function FlatTwo2() {
         </div>
 
         <div className="flat-one-info">
-          <img src={flatTwo} alt="" />
+          {/* <div style={containerStyles}>
+            <SliderFlatTwo slides={slides}/>
+          </div> */}
+          
+
+          {/* <img src={flatTwo} alt="" /> */}
+
+         
 
          <div className="flat-text-info">
           <p className='rooms'>КОЛИЧЕСТВО КОМНАТ</p>

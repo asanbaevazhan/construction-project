@@ -275,3 +275,252 @@
         }
     }
 }
+
+@media all and (max-width: 400px) {
+    .home{
+        width: 100%;
+        height: 100vh;
+        background-image: url('./../../assets/img/building.png');
+        background-size:cover;
+        background-position: right;
+        background-repeat: no-repeat;
+    
+        .floors{
+            padding-top: 265px;
+            margin-left: -250px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            align-items: center;
+            height: 50vh;
+    
+            a{
+                border: 1px solid #000;
+                text-decoration: none;
+                width: 35%;
+            }
+    
+            .floor-two{
+                height: 45px;
+                margin-bottom: 0px;
+                margin-top: 10px; 
+                z-index: 1;
+                p{
+                    visibility: hidden;
+                }
+            }
+    
+            .floor-two:hover{
+                background-color: rgba(255, 255, 255, 0.501);
+                p{
+                    visibility: visible;
+                    font-family: 'Oswald', sans-serif;
+                    background-color: #756b60;
+                    color: rgb(255, 255, 255);
+                    font-size: 20pt;
+                    width: 10%;
+                    margin-left: 100.5%;
+                    margin-top: 0px;
+                    span{
+                        font-size: 25pt;
+                    }
+                }
+            }
+    
+            .floor-three{
+                height: 45px;
+                margin-top: 10px;
+    
+                p{
+                    visibility: hidden;
+                }
+            }
+    
+            .floor-three:hover{
+                background-color: rgba(255, 255, 255, 0.501);
+                p{
+                    visibility: visible;
+                    font-family: 'Oswald', sans-serif;
+                    background-color: #756b60;
+                    color: rgb(255, 255, 255);
+                    font-size: 20pt;
+                    width: 10%;
+                    margin-left: 100.5%;
+                    margin-top: 0px;
+                    span{
+                        font-size: 25pt;
+                    }
+                }
+            }
+    
+            .floor-four{
+                margin-bottom: 0px;
+                height: 45px;
+                margin-top: 10px;
+                p{
+                    visibility: hidden;
+                }
+            }
+    
+            .floor-four:hover{
+                background-color: rgba(255, 255, 255, 0.501);
+                p{
+                    visibility: visible;
+                    font-family: 'Oswald', sans-serif;
+                    background-color: #756b60;
+                    color: rgb(255, 255, 255);
+                    font-size: 20pt;
+                    width: 10%;
+                    margin-left: 100.5%;
+                    margin-top: 0px;
+                    span{
+                        font-size: 25pt;
+                    }
+                }
+            }
+    
+            .floor-five{
+                height: 45px;
+                margin-top: 10px;
+                p{
+                    visibility: hidden;
+                }
+            }
+    
+            .floor-five:hover{
+                background-color: rgba(255, 255, 255, 0.501);
+                p{
+                    visibility: visible;
+                    font-family: 'Oswald', sans-serif;
+                    background-color: #756b60;
+                    color: rgb(255, 255, 255);
+                    font-size: 20pt;
+                    width: 10%;
+                    margin-left: 100.5%;
+                    margin-top: 0px;
+                    span{
+                        font-size: 25pt;
+                    }
+                }
+            }
+    
+            .floor-six{
+                height: 45px;
+                margin-top: 10px;
+                p{
+                    visibility: hidden;
+                }
+            }
+    
+            .floor-six:hover{
+                background-color: rgba(255, 255, 255, 0.501);
+                p{
+                    visibility: visible;
+                    font-family: 'Oswald', sans-serif;
+                    background-color: #756b60;
+                    color: rgb(255, 255, 255);
+                    font-size: 20pt;
+                    width: 10%;
+                    margin-left: 100.5%;
+                    margin-top: 0px;
+                    span{
+                        font-size: 25pt;
+                    }
+                }
+            }
+    
+            .floor-seven{
+                height: 45px;
+                margin-top: 10px;
+                p{
+                    visibility: hidden;
+                }
+            }
+            .floor-seven:hover{
+                background-color: rgba(255, 255, 255, 0.501);
+                p{
+                    visibility: visible;
+                    font-family: 'Oswald', sans-serif;
+                    background-color: #756b60;
+                    color: rgb(255, 255, 255);
+                    font-size: 20pt;
+                    width: 10%;
+                    margin-left: 100.5%;
+                    margin-top: 0px;
+                    span{
+                        font-size: 25pt;
+                    }
+                }
+            }
+    
+            .floor-eight{
+                height: 45px;
+                margin-top: 10px;
+                p{
+                    visibility: hidden;
+                }
+            }
+            .floor-eight:hover{
+                background-color: rgba(255, 255, 255, 0.501);
+                p{
+                    visibility: visible;
+                    font-family: 'Oswald', sans-serif;
+                    background-color: #756b60;
+                    color: rgb(255, 255, 255);
+                    font-size: 20pt;
+                    width: 10%;
+                    margin-left: 100.5%;
+                    margin-top: 0px;
+                    span{
+                        font-size: 25pt;
+                    }
+                }
+            }
+    
+            .floor-nine{
+                height: 45px;
+                p{
+                    visibility: hidden;
+                }
+            }
+            .floor-nine:hover{
+                background-color: rgba(255, 255, 255, 0.501);
+                p{
+                    visibility: visible;
+                    font-family: 'Oswald', sans-serif;
+                    background-color: #756b60;
+                    color: rgb(255, 255, 255);
+                    font-size: 20pt;
+                    width: 10%;
+                    margin-left: 100.5%;
+                    margin-top: 0px;
+                    span{
+                        font-size: 25pt;
+                    }
+                }
+            }
+            
+        }
+    
+        .headline{
+            text-transform: uppercase;
+            font-family: 'Oswald', sans-serif;
+            position: relative;
+            top: 20px;
+            color: rgb(255, 255, 255);
+    
+            h1{
+                margin: 0;
+                padding: 0;
+                font-size: 26pt;
+                letter-spacing: 0.2em;
+            }
+            p{
+                margin: 0;
+                padding: 0;
+                font-size: 12pt;
+                letter-spacing: 0.1em;
+            }
+        }
+    }
+}

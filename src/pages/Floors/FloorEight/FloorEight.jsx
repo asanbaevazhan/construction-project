@@ -38,7 +38,7 @@ function FloorEight() {
         </div>
 
         <div className="residential-complex">
-          <p>ЖК "CONSTRUCTION"</p>
+          <p>ЖК "АТМОСФЕРА"</p>
         </div>
 
       </div>
