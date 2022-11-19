@@ -4,8 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { DownOutlined } from '@ant-design/icons';
 import { UpOutlined } from '@ant-design/icons';
 import { CloseOutlined } from '@ant-design/icons';
-
-import flatFour from './../../../../assets/flat/квартира 4.jpg'
+import SliderFlatFour from '../../../../components/Slider/FlatFour/SliderFlatFour';
 
 function FlatFour3() {
   const navigate = useNavigate();
@@ -23,7 +22,7 @@ function FlatFour3() {
   return (
     <div className='flat-one'>
       <div className="floor-one-page-wrapper">
-        <div className='side' >
+        <div className='side-one' >
           <div className="pagination">
             <UpOutlined 
               style={{ fontSize: '100px', color: '#756b60'}}
@@ -40,12 +39,12 @@ function FlatFour3() {
           </div>
 
           <div className="residential-complex">
-            <p>ЖК "CONSTRUCTION"</p>
+          <p>ЖК "АТМОСФЕРА"</p>
           </div>
         </div>
 
         <div className="flat-one-info">
-          <img src={flatFour} alt="" />
+          <SliderFlatFour/>
 
          <div className="flat-text-info">
           <p className='rooms'>КОЛИЧЕСТВО КОМНАТ</p>
@@ -55,7 +54,7 @@ function FlatFour3() {
          </div>
         </div>
 
-        <div className="cancel" >
+        <div className="cancel-one" >
             <CloseOutlined 
             onClick={handleCancel}
               style={{ fontSize: '40px', color: '#756b60'}}

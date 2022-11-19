@@ -4,11 +4,6 @@ import { useNavigate } from "react-router-dom";
 import { UpOutlined } from '@ant-design/icons';
 import { CloseOutlined } from '@ant-design/icons';
 import SliderFlatTwo from './../../../../components/Slider/FlatTwo/SliderFlatTwo'
-import flatTwo from './../../../../assets/flat/квартира 2.jpg'
-
-import img1 from './../../../../assets/flat/квартира 2.jpg'
-import img2 from './../../../../assets/img2/2.png'
-
 
 function FlatTwo2() {
   const navigate = useNavigate();
@@ -21,20 +16,10 @@ function FlatTwo2() {
     navigate(-1);
   }
 
-  const slides = [
-    {url: img1},
-    {url: img2},
-  ]
-
-  const containerStyles = {
-    width: '500px',
-    height: '280px',
-    margin: "0 auto"
-  }
   return (
     <div className='flat-one'>
       <div className="floor-one-page-wrapper">
-        <div className='side' >
+        <div className='side-one' >
           <div className="pagination">
             <UpOutlined 
               style={{ fontSize: '100px', color: '#756b60'}}
@@ -48,19 +33,12 @@ function FlatTwo2() {
           </div>
 
           <div className="residential-complex">
-            <p>ЖК "CONSTRUCTION"</p>
+              <p>ЖК "АТМОСФЕРА"</p>
           </div>
         </div>
 
         <div className="flat-one-info">
-          {/* <div style={containerStyles}>
-            <SliderFlatTwo slides={slides}/>
-          </div> */}
-          
-
-          {/* <img src={flatTwo} alt="" /> */}
-
-         
+          <SliderFlatTwo/>
 
          <div className="flat-text-info">
           <p className='rooms'>КОЛИЧЕСТВО КОМНАТ</p>
@@ -70,17 +48,13 @@ function FlatTwo2() {
          </div>
         </div>
 
-        <div className="cancel" >
+        <div className="cancel-one" >
             <CloseOutlined 
-            onClick={handleCancel}
+              onClick={handleCancel}
               style={{ fontSize: '40px', color: '#756b60'}}
             />
         </div>
-
-      
       </div>
-
-      
     </div>
   )
 }

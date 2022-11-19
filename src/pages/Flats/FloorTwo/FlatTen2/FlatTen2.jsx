@@ -3,23 +3,20 @@ import './FlatTen2.scss'
 import { useNavigate } from "react-router-dom";
 import { UpOutlined } from '@ant-design/icons';
 import { CloseOutlined } from '@ant-design/icons';
-
-import flatTen from './../../../../assets/flat/квартира 10.jpg'
+import SliderFlatTen from '../../../../components/Slider/FlatTen/SliderFlatTen';
 
 function FlatTen2() {
   const navigate = useNavigate();
-  
   const handleNext = () => {
     navigate('/floor-three');
   }
-
   const handleCancel = () => {
     navigate(-1);
   }
   return (
   <div className='flat-one'>
     <div className="floor-one-page-wrapper">
-      <div className='side' >
+      <div className='side-one' >
         <div className="pagination">
           <UpOutlined 
             style={{ fontSize: '100px', color: '#756b60'}}
@@ -33,12 +30,12 @@ function FlatTen2() {
         </div>
 
         <div className="residential-complex">
-          <p>ЖК "CONSTRUCTION"</p>
+        <p>ЖК "АТМОСФЕРА"</p>
         </div>
       </div>
 
       <div className="flat-one-info">
-        <img src={flatTen} alt="" />
+        <SliderFlatTen/>
 
        <div className="flat-text-info">
         <p className='rooms'>КОЛИЧЕСТВО КОМНАТ</p>
@@ -48,7 +45,7 @@ function FlatTen2() {
        </div>
       </div>
 
-      <div className="cancel" >
+      <div className="cancel-one" >
           <CloseOutlined 
           onClick={handleCancel}
             style={{ fontSize: '40px', color: '#756b60'}}

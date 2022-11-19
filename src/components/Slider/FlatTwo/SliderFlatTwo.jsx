@@ -1,47 +1,112 @@
-import React, { useState } from 'react'
+import * as React from 'react';
+import './SliderFlatTwo.scss'
+import { useTheme } from '@mui/material/styles';
+import Box from '@mui/material/Box';
+import MobileStepper from '@mui/material/MobileStepper';
+import Button from '@mui/material/Button';
+import KeyboardArrowLeft from '@mui/icons-material/KeyboardArrowLeft';
+import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight';
+import SwipeableViews from 'react-swipeable-views';
+import { autoPlay } from 'react-swipeable-views-utils';
 
-const SliderFlatTwo = ({slides}) => {
-    const[currentIndex, setCurrentIndex] = useState(0);
-    const sliderStyles = {
-        height: "100%",
-        position: "relative",
-    }
-    const slideStyles ={
-        width: "100%",
-        height: "100%",
-        borderRadius: "10px",
-        backgroundPosition: "center",
-        backgroundSize: "cover",
-        backgroundImage:`url(${slides[currentIndex].url})`
-    }
+import flat from './../../../assets/flat/квартира 2.jpg'
+import flat2 from './../../../assets/img2/2.png'
 
-    const leftArrowStyles ={
-        position: 'absolute',
-        top: '50%',
-        transform: 'translate(0, -50%)',
-        left: "32px",
-        fontSize: '45px',
-        color: '#000',
-        zIndex: 1,
-        cursor: "pointer",
-    }
-    const rightArrowStyles ={
-        position: 'absolute',
-        top: '50%',
-        transform: 'translate(0, -50%)',
-        right: "32px",
-        fontSize: '45px',
-        color: '#000',
-        zIndex: 1,
-        cursor: "pointer",
-    }
+const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
+
+const images = [
+  {
+    imgPath: flat,
+  },
+  {
+    imgPath: flat2,
+  }
+];
+
+function SliderFlatTwo() {
+  const theme = useTheme();
+  const [activeStep, setActiveStep] = React.useState(0);
+  const maxSteps = images.length;
+
+  const handleNext = () => {
+    setActiveStep((prevActiveStep) => prevActiveStep + 1);
+  };
+
+  const handleBack = () => {
+    setActiveStep((prevActiveStep) => prevActiveStep - 1);
+  };
+
   return (
-    <div style={sliderStyles}>
-        <div style={leftArrowStyles}> Left arrow</div>
-        <div style={rightArrowStyles}>Right arrow</div>
-        <div style={slideStyles}></div>
-    </div>
-  )
-};
+    <Box sx={{ maxWidth: 850, flexGrow: 1 }}>
+      <AutoPlaySwipeableViews
+        axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
+        index={activeStep}
+        enableMouseEvents
+      >
+        {images.map((step, index) => (
+          <div >
+            {Math.abs(activeStep - index) <= 2 ? (
+              <Box
+                component="img"
+                sx={{
+                  height: 500,
+                  display: 'block',
+                  maxWidth: 800,
+                  overflow: 'hidden',
+                  width: '100%',
+                }}
+                src={step.imgPath}
+              />
+            ) : null}
+          </div>
+        ))}
+      </AutoPlaySwipeableViews>
+      <MobileStepper
+        steps={maxSteps}
+        position="static"
+        activeStep={activeStep}
+        sx={{
+          '& MuiMobileStepper-dot .MuiMobileStepper-dotActive .css-26w9jf-MuiMobileStepper-dot': {
+            backgroundColor: '#756b60', 
+          },
+        }}
+        nextButton={
+          <Button
+            size="small"
+            style={{
+                color: '#756b60'
+            }}
+            onClick={handleNext}
+            disabled={activeStep === maxSteps - 1}
+          >
+            
+            {theme.direction === 'rtl' ? (
+              <KeyboardArrowLeft />
+            ) : (
+              <KeyboardArrowRight />
+            )}
+          </Button>
+        }
+        backButton={
+          <Button 
+            size="small" 
+            style={{
+                color: '#756b60'
+            }}
+            onClick={handleBack} 
+            disabled={activeStep === 0}
+            >
+            {theme.direction === 'rtl' ? (
+              <KeyboardArrowRight />
+            ) : (
+              <KeyboardArrowLeft />
+            )}
+            
+          </Button>
+        }
+      />
+    </Box>
+  );
+}
 
-export default SliderFlatTwo
+export default SliderFlatTwo;

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import './SliderFlatOne.scss'
+import './SliderFlatFour.scss'
 import { useTheme } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import MobileStepper from '@mui/material/MobileStepper';
@@ -8,21 +8,21 @@ import KeyboardArrowLeft from '@mui/icons-material/KeyboardArrowLeft';
 import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight';
 import SwipeableViews from 'react-swipeable-views';
 import { autoPlay } from 'react-swipeable-views-utils';
-import flatOne from './../../../assets/flat/квартира 1.jpg'
-import flatOne2 from './../../../assets/img2/1.png'
+import flat from './../../../assets/flat/квартира 4.jpg'
+import flat2 from './../../../assets/img2/4.png'
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
 const images = [
   {
-    imgPath: flatOne,
+    imgPath: flat,
   },
   {
-    imgPath: flatOne2,
+    imgPath: flat2,
   }
 ];
 
-function SliderFlatOne() {
+function SliderFlatFour() {
   const theme = useTheme();
   const [activeStep, setActiveStep] = React.useState(0);
   const maxSteps = images.length;
@@ -40,7 +40,7 @@ function SliderFlatOne() {
   };
 
   return (
-    <Box sx={{ maxWidth: 850, flexGrow: 1 }}>
+    <Box sx={{ maxWidth: 800, flexGrow: 1 }}>
       <AutoPlaySwipeableViews
         axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
         index={activeStep}
@@ -113,4 +113,4 @@ function SliderFlatOne() {
   );
 }
 
-export default SliderFlatOne;
+export default SliderFlatFour;
