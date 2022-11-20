@@ -1,6 +1,7 @@
 import * as React from 'react';
 import './SliderFlatSix.scss'
 import { useTheme } from '@mui/material/styles';
+import { makeStyles } from '@mui/styles';
 import Box from '@mui/material/Box';
 import MobileStepper from '@mui/material/MobileStepper';
 import Button from '@mui/material/Button';
@@ -23,7 +24,17 @@ const images = [
   }
 ];
 
+const useStyles = makeStyles({
+  dot: {
+    backgroundColor: "#dfdfdf"
+  },
+  dotActive: {
+    backgroundColor: "#756b60"
+  }
+});
+
 function SliderFlatSix() {
+  const classes = useStyles();
   const theme = useTheme();
   const [activeStep, setActiveStep] = React.useState(0);
   const maxSteps = images.length;
@@ -36,9 +47,6 @@ function SliderFlatSix() {
     setActiveStep((prevActiveStep) => prevActiveStep - 1);
   };
 
-  const handleStepChange = (step) => {
-    setActiveStep(step);
-  };
 
   return (
     <Box sx={{ maxWidth: 700, flexGrow: 1 }}>
@@ -69,6 +77,10 @@ function SliderFlatSix() {
         steps={maxSteps}
         position="static"
         activeStep={activeStep}
+        classes={{
+          dot: classes.dot,
+          dotActive: classes.dotActive
+        }}
         sx={{
           '& MuiMobileStepper-dot .MuiMobileStepper-dotActive .css-26w9jf-MuiMobileStepper-dot': {
             backgroundColor: '#756b60', 

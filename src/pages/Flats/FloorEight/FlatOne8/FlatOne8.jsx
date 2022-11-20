@@ -2,10 +2,9 @@ import React from 'react'
 import './FlatOne8.scss'
 import { useNavigate } from "react-router-dom";
 import { DownOutlined } from '@ant-design/icons';
-import { UpOutlined } from '@ant-design/icons';
 import { CloseOutlined } from '@ant-design/icons';
 
-import flatOne from './../../../../assets/flat/квартира 1.jpg'
+import SliderFlatOne from '../../../../components/Slider/FlatOne/SliderFlatOne';
 
 function FlatOne8() {
   const navigate = useNavigate();
@@ -33,12 +32,12 @@ function FlatOne8() {
           </div>
 
           <div className="residential-complex">
-            <p>ЖК "CONSTRUCTION"</p>
+          <p>ЖК "АТМОСФЕРА"</p>
           </div>
         </div>
 
         <div className="flat-one-info">
-          <img src={flatOne} alt="" />
+          <SliderFlatOne />
 
          <div className="flat-text-info">
           <p className='rooms'>КОЛИЧЕСТВО КОМНАТ</p>
@@ -48,7 +47,7 @@ function FlatOne8() {
          </div>
         </div>
 
-        <div className="cancel" >
+        <div className="cancel-one" >
             <CloseOutlined 
             onClick={handleCancel}
               style={{ fontSize: '40px', color: '#756b60'}}

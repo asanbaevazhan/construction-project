@@ -3,8 +3,7 @@ import './FlatThree8.scss'
 import { useNavigate } from "react-router-dom";
 import { DownOutlined } from '@ant-design/icons';
 import { CloseOutlined } from '@ant-design/icons';
-
-import flatThree from './../../../../assets/flat/квартира 3.jpg'
+import SliderFlatThree from '../../../../components/Slider/FlatThree/SliderFlatThree';
 
 function FlatThree8() {
   const navigate = useNavigate();
@@ -32,12 +31,13 @@ function FlatThree8() {
           </div>
 
           <div className="residential-complex">
-            <p>ЖК "CONSTRUCTION"</p>
+          <p>ЖК "АТМОСФЕРА"</p>
+ 
           </div>
         </div>
 
         <div className="flat-one-info">
-          <img src={flatThree} alt="" />
+          <SliderFlatThree />
 
          <div className="flat-text-info">
           <p className='rooms'>КОЛИЧЕСТВО КОМНАТ</p>
@@ -47,17 +47,13 @@ function FlatThree8() {
          </div>
         </div>
 
-        <div className="cancel" >
+        <div className="cancel-one" >
             <CloseOutlined 
             onClick={handleCancel}
               style={{ fontSize: '40px', color: '#756b60'}}
             />
         </div>
-
-      
       </div>
-
-      
     </div>
   )
 }

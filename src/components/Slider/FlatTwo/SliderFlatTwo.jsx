@@ -1,6 +1,7 @@
 import * as React from 'react';
 import './SliderFlatTwo.scss'
 import { useTheme } from '@mui/material/styles';
+import { makeStyles } from '@mui/styles';
 import Box from '@mui/material/Box';
 import MobileStepper from '@mui/material/MobileStepper';
 import Button from '@mui/material/Button';
@@ -22,8 +23,17 @@ const images = [
     imgPath: flat2,
   }
 ];
+const useStyles = makeStyles({
+  dot: {
+    backgroundColor: "#dfdfdf"
+  },
+  dotActive: {
+    backgroundColor: "#756b60"
+  }
+});
 
 function SliderFlatTwo() {
+  const classes = useStyles();
   const theme = useTheme();
   const [activeStep, setActiveStep] = React.useState(0);
   const maxSteps = images.length;
@@ -65,6 +75,10 @@ function SliderFlatTwo() {
         steps={maxSteps}
         position="static"
         activeStep={activeStep}
+        classes={{
+          dot: classes.dot,
+          dotActive: classes.dotActive
+        }}
         sx={{
           '& MuiMobileStepper-dot .MuiMobileStepper-dotActive .css-26w9jf-MuiMobileStepper-dot': {
             backgroundColor: '#756b60', 

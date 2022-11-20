@@ -3,8 +3,7 @@ import './FlatSeven8.scss'
 import { useNavigate } from "react-router-dom";
 import { DownOutlined } from '@ant-design/icons';
 import { CloseOutlined } from '@ant-design/icons';
-
-import flatSeven from './../../../../assets/flat/квартира 7.png'
+import SliderFlatSeven from '../../../../components/Slider/FlatSeven/SliderFlatSeven';
 
 function FlatSeven8() {
   const navigate = useNavigate();
@@ -32,12 +31,12 @@ function FlatSeven8() {
           </div>
 
           <div className="residential-complex">
-            <p>ЖК "CONSTRUCTION"</p>
+          <p>ЖК "АТМОСФЕРА"</p>
           </div>
         </div>
 
         <div className="flat-one-info">
-          <img src={flatSeven} alt="" />
+          <SliderFlatSeven/>
 
          <div className="flat-text-info">
           <p className='rooms'>КОЛИЧЕСТВО КОМНАТ</p>
@@ -47,7 +46,7 @@ function FlatSeven8() {
          </div>
         </div>
 
-        <div className="cancel" >
+        <div className="cancel-one" >
             <CloseOutlined 
             onClick={handleCancel}
               style={{ fontSize: '40px', color: '#756b60'}}

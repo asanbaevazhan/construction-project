@@ -5,7 +5,8 @@ import { DownOutlined } from '@ant-design/icons';
 import { UpOutlined } from '@ant-design/icons';
 import { CloseOutlined } from '@ant-design/icons';
 
-import flatFive from './../../../../assets/flat/квартира 5.jpg'
+import SliderFlatFive from '../../../../components/Slider/FlatFive/SliderFlatFive';
+
 
 function FlatFive3() {
   const navigate = useNavigate();
@@ -23,7 +24,7 @@ function FlatFive3() {
   return (
     <div className='flat-one'>
     <div className="floor-one-page-wrapper">
-      <div className='side' >
+      <div className='side-one' >
         <div className="pagination">
           <UpOutlined 
             style={{ fontSize: '100px', color: '#756b60'}}
@@ -40,12 +41,12 @@ function FlatFive3() {
         </div>
 
         <div className="residential-complex">
-          <p>ЖК "CONSTRUCTION"</p>
+        <p>ЖК "АТМОСФЕРА"</p>
         </div>
       </div>
 
       <div className="flat-one-info">
-        <img src={flatFive} alt="" />
+        <SliderFlatFive/>
 
        <div className="flat-text-info">
         <p className='rooms'>КОЛИЧЕСТВО КОМНАТ</p>
@@ -55,7 +56,7 @@ function FlatFive3() {
        </div>
       </div>
 
-      <div className="cancel" >
+      <div className="cancel-one" >
           <CloseOutlined 
           onClick={handleCancel}
             style={{ fontSize: '40px', color: '#756b60'}}

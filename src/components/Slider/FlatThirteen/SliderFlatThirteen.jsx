@@ -1,5 +1,6 @@
 import * as React from 'react';
 import './SliderFlatThirteen.scss'
+import { makeStyles } from '@mui/styles';
 import { useTheme } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import MobileStepper from '@mui/material/MobileStepper';
@@ -21,8 +22,16 @@ const images = [
     imgPath: flat2,
   }
 ];
-
+const useStyles = makeStyles({
+  dot: {
+    backgroundColor: "#dfdfdf"
+  },
+  dotActive: {
+    backgroundColor: "#756b60"
+  }
+});
 function SliderFlatThirteen() {
+  const classes = useStyles();
   const theme = useTheme();
   const [activeStep, setActiveStep] = React.useState(0);
   const maxSteps = images.length;
@@ -64,6 +73,10 @@ function SliderFlatThirteen() {
         steps={maxSteps}
         position="static"
         activeStep={activeStep}
+        classes={{
+          dot: classes.dot,
+          dotActive: classes.dotActive
+        }}
         sx={{
           '& .css-26w9jf-MuiMobileStepper-dot': {
             backgroundColor: '#756b60', 
