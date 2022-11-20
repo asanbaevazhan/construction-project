@@ -114,6 +114,7 @@ function App() {
     <div className="App">
        <Routes>
           <Route index element={<Home/>} />
+          <Route exact path="/" element={<Home/>} />
             <Route path="/floor-two" element={<FloorTwo/>} />
               <Route path="/floor-two/flat-one" exact element={<FlatOne2/>} />
               <Route path="/floor-two/flat-two" element={<FlatTwo2/>} />
