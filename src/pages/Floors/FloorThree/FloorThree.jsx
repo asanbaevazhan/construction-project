@@ -32,6 +32,7 @@ function FloorThree() {
           <UpOutlined 
             style={{ fontSize: '100px', color: '#756b60'}}
             onClick={handleNext}
+            className="up-icon"
           />
 
           <div className='first-floor'>
@@ -42,6 +43,8 @@ function FloorThree() {
           <DownOutlined 
             style={{ fontSize: '100px', color: '#756b60'}}
             onClick={handleBack}
+            className="up-icon"
+
           />
 
           

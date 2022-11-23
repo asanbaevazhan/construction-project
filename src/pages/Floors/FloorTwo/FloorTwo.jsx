@@ -28,6 +28,7 @@ function FloorTwo() {
           <UpOutlined 
             style={{ fontSize: '100px', color: '#756b60'}}
             onClick={handleNext}
+            className="up-icon"
           />
 
           <div className='first-floor'>
@@ -52,7 +53,7 @@ function FloorTwo() {
       </div>
     </div>
     
-    <FlatLayout2/>
+    {/* <FlatLayout2/> */}
     
   </div>
   )
