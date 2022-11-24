@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/construction-project/static/css/main.ca017b38.css",
-    "main.js": "/construction-project/static/js/main.d2bd81a9.js",
+    "main.css": "/construction-project/static/css/main.d12b2f3d.css",
+    "main.js": "/construction-project/static/js/main.93bf8cb1.js",
     "static/media/квартира 6.png": "/construction-project/static/media/квартира 6.529210a29772a6987b99.png",
     "static/media/квартира 7.png": "/construction-project/static/media/квартира 7.c1f0561fc11d8a481a3f.png",
     "static/media/10.png": "/construction-project/static/media/10.1c8f22a8c96dbaab3d86.png",
@@ -44,11 +44,11 @@
     "static/media/flat-two.svg": "/construction-project/static/media/flat-two.9d2302a7addad3d1c13204c5a47e54cf.svg",
     "static/media/flat-six.svg": "/construction-project/static/media/flat-six.1989de4965dd490fabd1e014b0695584.svg",
     "static/media/flat-seven.svg": "/construction-project/static/media/flat-seven.75c97eede54de194756e9438badad34a.svg",
-    "main.ca017b38.css.map": "/construction-project/static/css/main.ca017b38.css.map",
-    "main.d2bd81a9.js.map": "/construction-project/static/js/main.d2bd81a9.js.map"
+    "main.d12b2f3d.css.map": "/construction-project/static/css/main.d12b2f3d.css.map",
+    "main.93bf8cb1.js.map": "/construction-project/static/js/main.93bf8cb1.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca017b38.css",
-    "static/js/main.d2bd81a9.js"
+    "static/css/main.d12b2f3d.css",
+    "static/js/main.93bf8cb1.js"
   ]
 }
