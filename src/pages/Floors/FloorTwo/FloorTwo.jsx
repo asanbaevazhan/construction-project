@@ -53,7 +53,7 @@ function FloorTwo() {
       </div>
     </div>
     
-    {/* <FlatLayout2/> */}
+    <FlatLayout2/>
     
   </div>
   )
