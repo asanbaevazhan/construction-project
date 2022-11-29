@@ -1251,7 +1251,7 @@
          }
      }
 }
-@media all and ((min-width:361px) and (max-width: 376px)) {
+@media all and ((min-width:359px) and (max-width: 376px)) {
     .flat-links{
         .floor-one-flat-one{
             //  border: 1px solid #000;
@@ -1300,6 +1300,568 @@
              position: absolute;
              top: 46.0% !important;
              left: 23.7% !important ;
+     
+             .anticon, .anticon-search{
+                visibility: hidden;
+                position: absolute;
+                top: 50.9% !important;
+                left: -40.1% !important;
+                border-radius: 50%;
+               //  padding: 5px;
+                width: 5px;
+                height: 5px;
+            }
+
+            .search{
+               svg{
+                   position: absolute;
+                   top: 20.9% !important;
+                   left: 20.5% !important;
+                   height: 15px !important;
+                   width: 15px !important;
+               }
+            }
+         
+             img{
+                 visibility: hidden;
+                 width: 30px !important;
+             }
+         }
+     
+         .floor-one-flat-two:hover {
+             img{
+                 visibility: visible;
+                 width: 30px !important;
+             }
+     
+             .anticon, .anticon-search{
+                 visibility: visible;
+             }
+         }
+     
+         .floor-one-flat-three{
+            //  border: 1px solid #000;
+             position: absolute;
+             top: 46.0% !important;
+             left: 31.3% !important;
+     
+             .anticon, .anticon-search{
+                visibility: hidden;
+                position: absolute;
+                top: 50.9% !important;
+                left: -40.1% !important;
+                border-radius: 50%;
+               //  padding: 5px;
+                width: 5px;
+                height: 5px;
+            }
+
+            .search{
+               svg{
+                   position: absolute;
+                   top: 20.9% !important;
+                   left: 20.5% !important;
+                   height: 15px !important;
+                   width: 15px !important;
+               }
+            }
+         
+     
+             img{
+                 visibility: hidden;
+                 width: 30px !important;
+             }
+         }
+     
+         .floor-one-flat-three:hover {
+             img{
+                 visibility: visible;
+                 width: 30px !important;
+             }
+     
+             .anticon, .anticon-search{
+                 visibility: visible;
+             }
+         }
+     
+         .floor-one-flat-four{
+            //  border: 1px solid #000;
+             position: absolute;
+             top: 46.1% !important;
+             left: 35.0% !important;
+     
+             .anticon, .anticon-search{
+                visibility: hidden;
+                position: absolute;
+                top: 62.9% !important;
+                left: -40.9% !important;
+                border-radius: 50%;
+               //  padding: 5px;
+                width: 5px;
+                height: 5px;
+            }
+
+            .search{
+               svg{
+                   position: absolute;
+                   top: 20.9% !important;
+                   left: 20.5% !important;
+                   height: 15px !important;
+                   width: 15px !important;
+               }
+            }
+     
+             img{
+                 visibility: hidden;
+                 width: 33px !important;
+             }
+         }
+     
+         .floor-one-flat-four:hover {
+             img{
+                 visibility: visible;
+                 width: 33px !important;
+     
+             }
+             .anticon, .anticon-search{
+                 visibility: visible;
+             }
+         }
+         .floor-one-flat-five{
+            //  border: 1px solid #000;
+             position: absolute;
+             top: 45.7% !important;
+             left: 43.4% !important;
+     
+             .anticon, .anticon-search{
+                visibility: hidden;
+                position: absolute;
+                top: 32.9% !important;
+                left: -40.9% !important;
+                border-radius: 50%;
+               //  padding: 5px;
+                width: 5px;
+                height: 5px;
+            }
+
+            .search{
+               svg{
+                   position: absolute;
+                   top: 20.9% !important;
+                   left: 20.5% !important;
+                   height: 15px !important;
+                   width: 15px !important;
+               }
+            }
+     
+             img{
+                 visibility: hidden;
+                 width: 33px !important;
+             }
+         }
+     
+         .floor-one-flat-five:hover {
+             img{
+                 visibility: visible;
+                 width: 33px !important;
+             }
+             .anticon, .anticon-search{
+                 visibility: visible;
+             }
+         }
+         .floor-one-flat-six{
+            //  border: 1px solid #000;
+             position: absolute;
+             top: 51.6% !important;
+             left: 47.5% !important;
+
+             .anticon, .anticon-search{
+                visibility: hidden;
+                position: absolute;
+                top: 42.9% !important;
+                left: -42.9% !important;
+                border-radius: 50%;
+               //  padding: 5px;
+                width: 5px;
+                height: 5px;
+            }
+
+            .search{
+               svg{
+                   position: absolute;
+                   top: 20.9% !important;
+                   left: 20.5% !important;
+                   height: 15px !important;
+                   width: 15px !important;
+               }
+            }
+             img{
+                 visibility: hidden;
+                 width: 30px !important;
+             }
+         }
+     
+         .floor-one-flat-six:hover {
+             img{
+                 visibility: visible;
+                 width: 30px !important;
+             }
+     
+             .anticon, .anticon-search{
+                 visibility: visible;
+             }
+         }
+         .floor-one-flat-seven{
+            //  border: 1px solid #000;
+             position: absolute;
+             top: 51.7% !important;
+             left: 54.7% !important;
+     
+             .anticon, .anticon-search{
+                visibility: hidden;
+                position: absolute;
+                top: 42.9% !important;
+                left: -42.9% !important;
+                border-radius: 50%;
+               //  padding: 5px;
+                width: 5px;
+                height: 5px;
+            }
+
+            .search{
+               svg{
+                   position: absolute;
+                   top: 20.9% !important;
+                   left: 20.5% !important;
+                   height: 15px !important;
+                   width: 15px !important;
+               }
+            }
+     
+             img{
+                 visibility: hidden;
+                 width: 30px !important;
+             }
+         }
+     
+         .floor-one-flat-seven:hover {
+             img{
+                 visibility: visible;
+                 width: 30px !important;
+             }
+             .anticon, .anticon-search{
+                 visibility: visible;
+             }
+         }
+     
+         .floor-one-flat-eight{
+            //  border: 1px solid #000;
+             position: absolute;
+             top: 46.3% !important;
+             left: 58.3% !important;
+     
+             .anticon, .anticon-search{
+                visibility: hidden;
+                position: absolute;
+                top: 35.9% !important;
+                left: -30.9% !important;
+                border-radius: 50%;
+               //  padding: 5px;
+                width: 5px;
+                height: 5px;
+            }
+
+            .search{
+               svg{
+                   position: absolute;
+                   top: 20.9% !important;
+                   left: 20.5% !important;
+                   height: 15px !important;
+                   width: 15px !important;
+               }
+            }
+     
+             img{
+                 visibility: hidden;
+                 width: 33px !important;
+             }
+         }
+     
+         .floor-one-flat-eight:hover {
+             img{
+                 visibility: visible;
+                 width: 33px !important;
+             }
+             .anticon, .anticon-search{
+                 visibility: visible;
+             }
+         }
+     
+         .floor-one-flat-nine{
+            //  border: 1px solid #000;
+             position: absolute;
+             top: 45.9% !important;
+             left: 68.2% !important;
+     
+             .anticon, .anticon-search{
+                visibility: hidden;
+                position: absolute;
+                top: 40.9% !important;
+                left: -49.9% !important;
+                border-radius: 50%;
+               //  padding: 5px;
+                width: 5px;
+                height: 5px;
+            }
+
+            .search{
+               svg{
+                   position: absolute;
+                   top: 20.9% !important;
+                   left: 20.5% !important;
+                   height: 15px !important;
+                   width: 15px !important;
+               }
+            }
+     
+             img{
+                 visibility: hidden;
+                 width: 37px !important;
+             }
+         }
+     
+         .floor-one-flat-nine:hover {
+             img{
+                 visibility: visible;
+                 width: 37px !important;
+             }
+             .anticon, .anticon-search{
+                 visibility: visible;
+             }
+         }
+     
+         .floor-one-flat-ten{
+            //  border: 1px solid #000;
+             position: absolute;
+             top: 42.3% !important;
+             left: 79.5% !important;
+     
+             .anticon, .anticon-search{
+                visibility: hidden;
+                position: absolute;
+                top: 60.9% !important;
+                left: -20.9% !important;
+                border-radius: 50%;
+               //  padding: 5px;
+                width: 5px;
+                height: 5px;
+            }
+
+            .search{
+               svg{
+                   position: absolute;
+                   top: 20.9% !important;
+                   left: 20.5% !important;
+                   height: 15px !important;
+                   width: 15px !important;
+               }
+            }
+     
+             img{
+                 visibility: hidden;
+                 width: 70px !important ;
+             }
+         }
+     
+         .floor-one-flat-ten:hover {
+             img{
+                 visibility: visible;
+                 width: 70px !important ;
+             }
+             .anticon, .anticon-search{
+                 visibility: visible;
+             }
+         }
+     
+         .floor-one-flat-eleven{
+            //  border: 1px solid #000;
+             position: absolute;
+             top: 51.9% !important;
+             left: 79.9% !important;
+             
+             .anticon, .anticon-search{
+                visibility: hidden;
+                position: absolute;
+                top: 55.9% !important;
+                left: -25.9% !important;
+                border-radius: 50%;
+               //  padding: 5px;
+                width: 5px;
+                height: 5px;
+            }
+
+            .search{
+               svg{
+                   position: absolute;
+                   top: 20.9% !important;
+                   left: 20.5% !important;
+                   height: 15px !important;
+                   width: 15px !important;
+               }
+            }
+     
+             img{
+                 visibility: hidden;
+                 width: 45px !important;
+             }
+         }
+     
+         .floor-one-flat-eleven:hover {
+             img{
+                 visibility: visible;
+                 width: 45px !important;
+             }
+             .anticon, .anticon-search{
+                 visibility: visible;
+             }
+         }
+         .floor-one-flat-twelve{
+            //  border: 1px solid #000;
+             position: absolute;
+             top: 55.6% !important;
+             left: 76.9% !important;
+     
+             .anticon, .anticon-search{
+                visibility: hidden;
+                position: absolute;
+                top: 55.9% !important;
+                left: -25.9% !important;
+                border-radius: 50%;
+               //  padding: 5px;
+                width: 5px;
+                height: 5px;
+            }
+
+            .search{
+               svg{
+                   position: absolute;
+                   top: 20.9% !important;
+                   left: 20.5% !important;
+                   height: 15px !important;
+                   width: 15px !important;
+               }
+            }
+             img{
+                 visibility: hidden;
+                 width: 50px !important;
+             }
+         }
+     
+         .floor-one-flat-twelve:hover {
+             img{
+                 visibility: visible;
+                 width:50px !important;
+             }
+     
+             .anticon, .anticon-search{
+                 visibility: visible;
+             }
+         }
+     
+         .floor-one-flat-thirteen{
+            //  border: 1px solid #000;
+             position: absolute;
+             top: 53.2% !important;
+             left: 69.2% !important;
+     
+             
+             .anticon, .anticon-search{
+                visibility: hidden;
+                position: absolute;
+                top: 55.9% !important;
+                left: -30.9% !important;
+                border-radius: 50%;
+               //  padding: 5px;
+                width: 5px;
+                height: 5px;
+            }
+
+            .search{
+               svg{
+                   position: absolute;
+                   top: 20.9% !important;
+                   left: 20.5% !important;
+                   height: 15px !important;
+                   width: 15px !important;
+               }
+            }
+     
+             img{
+                 visibility: hidden;
+                 width: 70px !important;
+             }
+         }
+     
+         .floor-one-flat-thirteen:hover {
+             img{
+                 visibility: visible;
+                 width: 70px !important;
+             }
+             .anticon, .anticon-search{
+                 visibility: visible;
+             }
+         }
+     }
+}
+@media all and ((min-width:320px) and (max-width: 360px)) {
+    .flat-links{
+        .floor-one-flat-one{
+            //  border: 1px solid #000;
+             position: absolute;
+             top: 43.7% !important;
+             left: 16.7% !important;
+     
+             .anticon, .anticon-search{
+                 visibility: hidden;
+                 position: absolute;
+                 top: 67.9% !important;
+                 left: -30.5% !important;
+                 border-radius: 50%;
+                //  padding: 5px;
+                 width: 5px;
+                 height: 5px;
+             }
+
+             .search{
+                svg{
+                    position: absolute;
+                    top: 20.9% !important;
+                    left: 25.5% !important;
+                    height: 15px !important;
+                    width: 15px !important;
+                }
+             }
+         
+             img{
+                 visibility: hidden;
+                 width: 37px !important;
+             }
+         }
+         .floor-one-flat-one:hover{
+             img{
+                 visibility: visible;
+                 width: 37px !important;
+             }
+     
+             .anticon, .anticon-search{
+                 visibility: visible;
+             }
+         }
+         .floor-one-flat-two{
+             border: 1px solid #000;
+             position: absolute;
+             top: 44.0% !important;
+             left: 21.5% !important ;
      
              .anticon, .anticon-search{
                 visibility: hidden;

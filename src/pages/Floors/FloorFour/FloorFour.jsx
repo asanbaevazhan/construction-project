@@ -63,7 +63,7 @@ function FloorFour() {
       </div>
     </div>
     
-    {/* <FlatLayout4/> */}
+    <FlatLayout4/>
     
   </div>
   )

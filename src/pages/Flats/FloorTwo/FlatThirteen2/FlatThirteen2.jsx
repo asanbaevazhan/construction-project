@@ -22,6 +22,7 @@ function FlatThirteen2() {
           <UpOutlined 
             style={{ fontSize: '100px', color: '#756b60'}}
             onClick={handleNext}
+            className='up-icon'
           />
           <div className='first-floor'>
             <p>2</p>

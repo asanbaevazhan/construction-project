@@ -129,5 +129,131 @@
         }
     
     }
+}
+
+@media all and ((min-width:361px) and (max-width: 376px)) {
+    .flat-one{
+        height: 100vh;
+    
+        .floor-one-page-wrapper{
+            padding-top: 80px;
+            .cancel{
+                padding-bottom: 100px !important;
+            }
+        }
+    
+        .side-one{
+            margin-top: -90px;
+            height: 50vh;
+    
+            .pagination{
+                .up-icon{
+                    svg{
+                        width:50px;
+                    }
+                }
+                .first-floor{
+                    margin-top: -90%;
+                    margin-bottom: -50%;
+                    p{
+                    font-family: 'Oswald', sans-serif; 
+                    font-size: 40pt;
+                    color: #756b60;
+                    // margin-top: -90%;
+                    // // margin-bottom: -90%;
+                    }
+    
+                    span{
+                        font-family: 'Oswald', sans-serif; 
+                        font-weight: 200;
+                        font-size: 16pt;
+                        color: #756b60;
+                        // margin-bottom: 10px;
+                        // margin-bottom: 90% !important;
+                    }
+                }
+                
+            }
+            .residential-complex{
+                position: fixed;
+                top: 90%;
+                left: 30.5%;
+    
+                p{
+                    font-family: 'Oswald', sans-serif;
+                    transform: rotateZ(0deg);
+                    border: 1px solid #756b60;
+                    border-radius: 10px;
+                    padding: 10px;
+                    color: #756b60;
+                }
+            }
+        }
+    
+        .cancel{
+            padding-bottom: 100px !important;
+        }
+    
+        .flat-one-info{
+            // display: flex;
+            // flex-direction: column;
+            // align-items: center;
+            // justify-self: center;
+            margin-top: 5%;
+
+            .flat-text-info{
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                justify-content: space-between;
+                position: absolute;
+                top: 65% !important;
+                height: 7% !important;
+                margin: 0;
+                padding: 0;
+    
+                p{
+                    font-family: "Oswald", sans-serif;
+                    color: #756b60;
+                    margin: 0;
+                    padding: 0;
+                }
+    
+                .rooms{
+                    font-weight: 200;
+                    font-size: 14pt !important;
+                    margin: 0;
+                    padding: 0;
+                }
+    
+                .q-rooms{
+                    font-weight: 600;
+                    font-size: 20pt !important;
+                    margin: 0;
+                    padding: 0;
+                }
+    
+                .square{
+                    padding-top: 20px;
+                    font-weight: 200;
+                    font-size: 14pt !important;
+                    margin: 0;
+                    padding: 0;
+                }
+    
+                .square-info{
+                    font-weight: 600;
+                    font-size: 20pt !important;
+                    margin: 0;
+                    padding: 0;
+                }
+    
+                .arrows{
+                    display: flex;
+                    flex-direction: row;
+                }
+            }
+        }
+    }
     
 }

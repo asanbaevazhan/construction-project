@@ -52,6 +52,7 @@ function FlatLayout3() {
                 <img src={flatOne} alt="" />
                 <SearchOutlined 
                     style={{ fontSize: '30px', color: '#756b60'}}
+                    className="search"
                 />
             </Link>
         </StyledTooltip>
@@ -69,6 +70,7 @@ function FlatLayout3() {
             <Link to="/floor-three/flat-two" className='floor-one-flat-two'>
                 <img src={flatTwo} alt="" />
                 <SearchOutlined 
+                    className="search"
                     style={{ fontSize: '30px', color: '#756b60'}}
                 />
             </Link>
@@ -87,6 +89,7 @@ function FlatLayout3() {
              <Link to="/floor-three/flat-three" className='floor-one-flat-three'>
                 <img src={flatThree} alt="" />
                 <SearchOutlined 
+                    className="search"
                     style={{ fontSize: '30px', color: '#756b60'}}
                 />
             </Link>
@@ -105,6 +108,7 @@ function FlatLayout3() {
             <Link to="/floor-three/flat-four" className='floor-one-flat-four'>
                 <img src={flatFour} alt="" />
                 <SearchOutlined 
+                    className="search"
                     style={{ fontSize: '30px', color: '#756b60'}}
                 />
             </Link>
@@ -124,7 +128,8 @@ function FlatLayout3() {
             <Link to="/floor-three/flat-five" className='floor-one-flat-five'>
               <img src={flatFive} alt="" />
               <SearchOutlined 
-                style={{ fontSize: '30px', color: '#756b60'}}
+                    className="search"
+                    style={{ fontSize: '30px', color: '#756b60'}}
               />
             </Link>
         </StyledTooltip>
@@ -143,6 +148,7 @@ function FlatLayout3() {
             <Link to="/floor-three/flat-six" className='floor-one-flat-six'>
               <img src={flatSix} alt="" />
               <SearchOutlined 
+                    className="search"
                     style={{ fontSize: '30px', color: '#756b60'}}
                   />
             </Link>
@@ -161,6 +167,7 @@ function FlatLayout3() {
             <Link to="/floor-three/flat-seven" className='floor-one-flat-seven'>
               <img src={flatSeven} alt="" />
               <SearchOutlined 
+                    className="search"
                     style={{ fontSize: '30px', color: '#756b60'}}
               />
             </Link>
@@ -180,7 +187,8 @@ function FlatLayout3() {
             <Link to="/floor-three/flat-eight" className='floor-one-flat-eight'>
               <img src={flatEight} alt="" />
               <SearchOutlined 
-                        style={{ fontSize: '30px', color: '#756b60'}}
+                    className="search"
+                    style={{ fontSize: '30px', color: '#756b60'}}
                   />
             </Link>
         </StyledTooltip>
@@ -199,7 +207,8 @@ function FlatLayout3() {
             <Link to="/floor-three/flat-nine" className='floor-one-flat-nine'>
               <img src={flatNine} alt="" />
               <SearchOutlined 
-                style={{ fontSize: '30px', color: '#756b60'}}
+                    className="search"
+                    style={{ fontSize: '30px', color: '#756b60'}}
               />
             </Link>
         </StyledTooltip>
@@ -218,6 +227,7 @@ function FlatLayout3() {
             <Link to="/floor-three/flat-ten" className='floor-one-flat-ten'>
               <img src={flatTen} alt="" />
               <SearchOutlined 
+                    className="search"
                     style={{ fontSize: '30px', color: '#756b60'}}
               />
             </Link>
@@ -237,7 +247,8 @@ function FlatLayout3() {
             <Link to="/floor-three/flat-eleven" className='floor-one-flat-eleven'>
               <img src={flatEleven} alt="" />
               <SearchOutlined 
-                style={{ fontSize: '30px', color: '#756b60'}}
+                    className="search"
+                    style={{ fontSize: '30px', color: '#756b60'}}
               />
             </Link>
         </StyledTooltip>
@@ -256,7 +267,8 @@ function FlatLayout3() {
             <Link to="/floor-three/flat-twelve" className='floor-one-flat-twelve'>
               <img src={flatTwelve} alt="" />
               <SearchOutlined 
-                style={{ fontSize: '30px', color: '#756b60'}}
+                    className="search"
+                    style={{ fontSize: '30px', color: '#756b60'}}
               />
             </Link>
         </StyledTooltip>
@@ -275,7 +287,8 @@ function FlatLayout3() {
               <Link to="/floor-three/flat-thirteen" className='floor-one-flat-thirteen'>
                 <img src={flatThirteen} alt="" /> 
                 <SearchOutlined 
-                  style={{ fontSize: '30px', color: '#756b60'}}
+                    className="search"
+                    style={{ fontSize: '30px', color: '#756b60'}}
                 />
               </Link>
         </StyledTooltip>

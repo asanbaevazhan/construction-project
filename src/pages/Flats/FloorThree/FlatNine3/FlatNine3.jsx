@@ -28,6 +28,7 @@ function FlatNine3() {
         <div className="pagination">
           <UpOutlined 
             style={{ fontSize: '100px', color: '#756b60'}}
+            className='up-icon'
             onClick={handleNext}
           />
           <div className='first-floor'>
@@ -36,6 +37,7 @@ function FlatNine3() {
           </div>
           <DownOutlined 
             style={{ fontSize: '100px', color: '#756b60'}}
+            className='up-icon'
             onClick={handleBack}
           />
         </div>

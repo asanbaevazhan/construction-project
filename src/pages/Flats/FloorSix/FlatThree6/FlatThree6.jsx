@@ -29,7 +29,8 @@ function FlatThree6() {
           <div className="pagination">
             <UpOutlined 
               style={{ fontSize: '100px', color: '#756b60'}}
-              onClick={handleNext}
+            className='up-icon'
+            onClick={handleNext}
             />
             <div className='first-floor'>
               <p>6</p>
@@ -37,7 +38,8 @@ function FlatThree6() {
             </div>
             <DownOutlined 
               style={{ fontSize: '100px', color: '#756b60'}}
-              onClick={handleBack}
+            className='up-icon'
+            onClick={handleBack}
             />
           </div>
 

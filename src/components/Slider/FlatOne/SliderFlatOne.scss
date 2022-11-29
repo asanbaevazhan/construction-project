@@ -9,3 +9,11 @@
     height: 8px;
     margin: 0 2px;
 }
+
+@media all and ((min-width:361px) and (max-width: 376px)){
+    .MuiBox-root .css-1une33h {
+        margin-top: 150px;
+        width: 500px;
+        height: 100px;
+    }
+}

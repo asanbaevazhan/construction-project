@@ -26,7 +26,8 @@ function FlatFour3() {
           <div className="pagination">
             <UpOutlined 
               style={{ fontSize: '100px', color: '#756b60'}}
-              onClick={handleNext}
+            className='up-icon'
+            onClick={handleNext}
             />
             <div className='first-floor'>
               <p>3</p>
@@ -34,7 +35,8 @@ function FlatFour3() {
             </div>
             <DownOutlined 
               style={{ fontSize: '100px', color: '#756b60'}}
-              onClick={handleBack}
+            className='up-icon'
+            onClick={handleBack}
             />
           </div>
 

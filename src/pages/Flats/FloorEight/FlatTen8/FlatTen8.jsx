@@ -27,7 +27,8 @@ function FlatTen8() {
             </div>
             <DownOutlined 
               style={{ fontSize: '100px', color: '#756b60'}}
-              onClick={handleBack}
+            className='up-icon'
+            onClick={handleBack}
             />
           </div>
 
