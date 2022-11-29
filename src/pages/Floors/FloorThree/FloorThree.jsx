@@ -66,7 +66,7 @@ function FloorThree() {
       </div>
     </div>
     
-    <FlatLayout3/>
+    {/* <FlatLayout3/> */}
     
   </div>
   )

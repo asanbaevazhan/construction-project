@@ -32,6 +32,7 @@ function FloorEight() {
 
           <DownOutlined 
             style={{ fontSize: '100px', color: '#756b60'}}
+            className="up-icon"
             onClick={handleBack}
           />
 
@@ -52,7 +53,7 @@ function FloorEight() {
       </div>
     </div>
     
-    <FlatLayout8/>
+    {/* <FlatLayout8/> */}
     
   </div>
   )

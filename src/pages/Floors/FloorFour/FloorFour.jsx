@@ -31,6 +31,7 @@ function FloorFour() {
 
           <UpOutlined 
             style={{ fontSize: '100px', color: '#756b60'}}
+            className="up-icon"
             onClick={handleNext}
           />
 
@@ -41,6 +42,7 @@ function FloorFour() {
 
           <DownOutlined 
             style={{ fontSize: '100px', color: '#756b60'}}
+            className="up-icon"
             onClick={handleBack}
           />
 
@@ -61,7 +63,7 @@ function FloorFour() {
       </div>
     </div>
     
-    <FlatLayout4/>
+    {/* <FlatLayout4/> */}
     
   </div>
   )

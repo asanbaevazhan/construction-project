@@ -52,6 +52,7 @@ function FlatLayout2() {
                 <img src={flatOne} alt="" />
                 <SearchOutlined 
                     style={{ fontSize: '30px', color: '#756b60'}}
+                    className='search'
                 />
             </Link>
         </StyledTooltip>
@@ -70,6 +71,7 @@ function FlatLayout2() {
                 <img src={flatTwo} alt="" />
                 <SearchOutlined 
                     style={{ fontSize: '30px', color: '#756b60'}}
+                    className='search'
                 />
             </Link>
         </StyledTooltip>
@@ -88,6 +90,8 @@ function FlatLayout2() {
                 <img src={flatThree} alt="" />
                 <SearchOutlined 
                     style={{ fontSize: '30px', color: '#756b60'}}
+                    className='search'
+
                 />
             </Link>
         </StyledTooltip>
@@ -106,6 +110,8 @@ function FlatLayout2() {
                 <img src={flatFour} alt="" />
                 <SearchOutlined 
                     style={{ fontSize: '30px', color: '#756b60'}}
+                    className='search'
+
                 />
             </Link>
         </StyledTooltip>
@@ -125,6 +131,8 @@ function FlatLayout2() {
               <img src={flatFive} alt="" />
               <SearchOutlined 
                 style={{ fontSize: '30px', color: '#756b60'}}
+                className='search'
+
               />
             </Link>
         </StyledTooltip>
@@ -144,6 +152,8 @@ function FlatLayout2() {
               <img src={flatSix} alt="" />
               <SearchOutlined 
                     style={{ fontSize: '30px', color: '#756b60'}}
+                className='search'
+
                   />
             </Link>
         </StyledTooltip>
@@ -162,6 +172,8 @@ function FlatLayout2() {
               <img src={flatSeven} alt="" />
               <SearchOutlined 
                     style={{ fontSize: '30px', color: '#756b60'}}
+                className='search'
+
               />
             </Link>
         </StyledTooltip>
@@ -181,6 +193,8 @@ function FlatLayout2() {
               <img src={flatEight} alt="" />
               <SearchOutlined 
                         style={{ fontSize: '30px', color: '#756b60'}}
+                className='search'
+
                   />
             </Link>
         </StyledTooltip>
@@ -200,6 +214,8 @@ function FlatLayout2() {
               <img src={flatNine} alt="" />
               <SearchOutlined 
                 style={{ fontSize: '30px', color: '#756b60'}}
+                className='search'
+
               />
             </Link>
         </StyledTooltip>
@@ -219,6 +235,8 @@ function FlatLayout2() {
               <img src={flatTen} alt="" />
               <SearchOutlined 
                     style={{ fontSize: '30px', color: '#756b60'}}
+                className='search'
+
               />
             </Link>
         </StyledTooltip>
@@ -238,6 +256,8 @@ function FlatLayout2() {
               <img src={flatEleven} alt="" />
               <SearchOutlined 
                 style={{ fontSize: '30px', color: '#756b60'}}
+                className='search'
+
               />
             </Link>
         </StyledTooltip>
@@ -257,6 +277,8 @@ function FlatLayout2() {
               <img src={flatTwelve} alt="" />
               <SearchOutlined 
                 style={{ fontSize: '30px', color: '#756b60'}}
+                className='search'
+
               />
             </Link>
         </StyledTooltip>
@@ -276,6 +298,8 @@ function FlatLayout2() {
                 <img src={flatThirteen} alt="" /> 
                 <SearchOutlined 
                   style={{ fontSize: '30px', color: '#756b60'}}
+                className='search'
+
                 />
               </Link>
         </StyledTooltip>
