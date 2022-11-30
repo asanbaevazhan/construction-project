@@ -51,7 +51,7 @@ function SliderFlatSeven() {
   };
 
   return (
-    <Box sx={{ maxWidth: 700, flexGrow: 1 }}>
+    <Box sx={{ maxWidth: 800, flexGrow: 1 }}>
       <AutoPlaySwipeableViews
         axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
         index={activeStep}
@@ -65,7 +65,7 @@ function SliderFlatSeven() {
                 sx={{
                   height: 500,
                   display: 'block',
-                  maxWidth: 700,
+                  maxWidth: 800,
                   overflow: 'hidden',
                   width: '100%',
                 }}
