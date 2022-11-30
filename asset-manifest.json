@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/construction-project/static/css/main.b31f09be.css",
-    "main.js": "/construction-project/static/js/main.93bf8cb1.js",
+    "main.css": "/construction-project/static/css/main.e08bcb3f.css",
+    "main.js": "/construction-project/static/js/main.f1914ade.js",
     "static/media/квартира 6.png": "/construction-project/static/media/квартира 6.529210a29772a6987b99.png",
     "static/media/квартира 7.png": "/construction-project/static/media/квартира 7.c1f0561fc11d8a481a3f.png",
     "static/media/10.png": "/construction-project/static/media/10.1c8f22a8c96dbaab3d86.png",
@@ -17,6 +17,8 @@
     "static/media/5.png": "/construction-project/static/media/5.125d87e08afc58df18db.png",
     "static/media/4.png": "/construction-project/static/media/4.b0b2c29718704a6424b6.png",
     "static/media/Новая планировка этажа.png": "/construction-project/static/media/Новая планировка этажа.c5a489b5d2d74eb23c73.png",
+    "static/media/7.jpg": "/construction-project/static/media/7.f88aed1cf8448bc1f4dc.jpg",
+    "static/media/6.jpg": "/construction-project/static/media/6.4e9cfe274f34fac9c968.jpg",
     "static/media/квартира 10.jpg": "/construction-project/static/media/квартира 10.b93ddbfc31540b0184a4.jpg",
     "static/media/квартира 13.jpg": "/construction-project/static/media/квартира 13.04359505a2f6a1a14cf0.jpg",
     "static/media/квартира 9.jpg": "/construction-project/static/media/квартира 9.75428da3acac6e5fec70.jpg",
@@ -28,8 +30,6 @@
     "static/media/квартира 11.jpg": "/construction-project/static/media/квартира 11.b84c0699e2d30eaaca36.jpg",
     "static/media/квартира 2.jpg": "/construction-project/static/media/квартира 2.a6176bc0628be3cfeb9b.jpg",
     "static/media/квартира 3.jpg": "/construction-project/static/media/квартира 3.918fe74a64265724bdb3.jpg",
-    "static/media/6.jpg": "/construction-project/static/media/6.31e332396a8c799b5c55.jpg",
-    "static/media/7.jpg": "/construction-project/static/media/7.8fd9e951af16ddad752d.jpg",
     "index.html": "/construction-project/index.html",
     "static/media/flat-thirteen.svg": "/construction-project/static/media/flat-thirteen.6848065717dadb928b38d010f983b6b8.svg",
     "static/media/flat-one.svg": "/construction-project/static/media/flat-one.e8e96b84e881f9f432c5846f5384c865.svg",
@@ -44,11 +44,11 @@
     "static/media/flat-two.svg": "/construction-project/static/media/flat-two.9d2302a7addad3d1c13204c5a47e54cf.svg",
     "static/media/flat-six.svg": "/construction-project/static/media/flat-six.1989de4965dd490fabd1e014b0695584.svg",
     "static/media/flat-seven.svg": "/construction-project/static/media/flat-seven.75c97eede54de194756e9438badad34a.svg",
-    "main.b31f09be.css.map": "/construction-project/static/css/main.b31f09be.css.map",
-    "main.93bf8cb1.js.map": "/construction-project/static/js/main.93bf8cb1.js.map"
+    "main.e08bcb3f.css.map": "/construction-project/static/css/main.e08bcb3f.css.map",
+    "main.f1914ade.js.map": "/construction-project/static/js/main.f1914ade.js.map"
   },
   "entrypoints": [
-    "static/css/main.b31f09be.css",
-    "static/js/main.93bf8cb1.js"
+    "static/css/main.e08bcb3f.css",
+    "static/js/main.f1914ade.js"
   ]
 }
